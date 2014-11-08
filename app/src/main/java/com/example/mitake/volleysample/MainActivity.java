@@ -50,7 +50,7 @@ public class MainActivity extends Activity {
 
     private void request(){
         String tag_json_obj = "json_obj_req";
-        String url = "http://api.androidhive.info/volley/person_object.json";
+        String url = "https://www.kimonolabs.com/api/ap7bmyxi?apikey=7847c6c5e5591f2f97eed3c0f41aa4e1";
         JsonObjectRequest jsonObjReq = new JsonObjectRequest(Request.Method.GET,
                 url, null,
                 new Response.Listener() {
